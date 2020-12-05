@@ -10,7 +10,7 @@ public class ShopViewModel extends ViewModel {
 
     public ShopViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("sdfgsdfgfsdgsfdgsdf");
+        mText.setValue("Shop");
     }
 
     public LiveData<String> getText() {
