@@ -1,4 +1,4 @@
-package com.example.polihack.ui.home;
+package com.example.polihack.ui.shop;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.polihack.R;
 
-public class HomeFragment extends Fragment {
+public class ShopFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private ShopViewModel shopViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        shopViewModel =
+                new ViewModelProvider(this).get(ShopViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_shop, container, false);
+        final TextView textView = root.findViewById(R.id.text_shop);
+        shopViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
