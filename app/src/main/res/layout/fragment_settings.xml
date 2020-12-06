@@ -8,7 +8,7 @@
     android:background="@drawable/pop_up_settings"
     android:padding="5dp"
     android:visibility="visible"
-    tools:context=".ui.activities.ActivitiesFragment">
+    tools:context=".ui.settings.SettingsFragment">
 
 
     <TextView
