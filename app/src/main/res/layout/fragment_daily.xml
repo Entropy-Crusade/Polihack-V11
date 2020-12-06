@@ -10,7 +10,7 @@
     tools:context=".ui.daily.DailyFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="348dp"
+        android:layout_width="345dp"
         android:layout_height="63dp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="350dp"
+        android:layout_width="345dp"
         android:layout_height="500dp"
         android:layout_gravity="center"
         android:layout_marginTop="188dp"
@@ -63,144 +63,137 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="12dp"
-        android:background="@color/background_popup"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_daily">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/background_popup"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_daily">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Test"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monday"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/background_popup"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/background_popup"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Test"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuesday"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/background_popup"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/background_popup"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Test"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wednesday"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/background_popup"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/background_popup"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Test"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thursday"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout5"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/background_popup"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/background_popup"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Test"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Friday"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout6"
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/background_popup"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/background_popup"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Test"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saturday"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/background_popup"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/background_popup"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Test"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sunday"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Polihack</string>
+    <string name="app_name">MenSana</string>
     <string name="title_daily">Daily</string>
     <string name="title_activities">Activities</string>
     <string name="title_profile">Profile</string>
     <string name="title_shop">Shop</string>
     <string name="title_settings">Settings</string>
-    <string name="baniii">unNumarAcolo</string>
+    <string name="baniii"> 42 (test number)</string>
     <string name="icon_music">Music</string>
     <string name="icon_painting">   Painting</string>
     <string name="icon_dancing">Dancing</string>
