@@ -48,6 +48,8 @@
         android:layout_marginTop="188dp"
         android:background="@drawable/pop_up_shop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
                                                        
          <LinearLayout
             android:id="@+id/linearLayout7"
@@ -234,5 +236,4 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
